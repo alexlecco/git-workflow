@@ -12,3 +12,9 @@ git stash clear
 ``` bash
 git reset --hard origin/<branch_name>
 ``` 
+
+# Volver temporalmente a un commit anterior
+``` bash
+git checkout [revision] .
+git reset --hard;
+``` 
