@@ -21,5 +21,5 @@ git reset --hard;
 
 # Cambiar el author del ultimo commit (cambiar de alexlecco24@gmail.com => alex.villecco@globant.com)
 ``` bash
-git commit --amend --author="Author Name <alex.villecco@globant.com>"
+git commit --amend --author="Alex Villecco <alex.villecco@globant.com>"
 ``` 
