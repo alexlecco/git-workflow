@@ -23,7 +23,7 @@ git reset --hard;
 ``` bash
 git commit --amend --author="Alex Villecco <alex.villecco@globant.com>"
 ``` 
-# -----------------------------------------------------------------------------------
+# -------------------------------------------------------------------
 # Como actualizar un repo forkeado
 
 # Add the remote, call it "upstream":
@@ -41,4 +41,4 @@ git checkout master
 # other branch:
 git rebase upstream/master
 
-# -----------------------------------------------------------------------------------
+# -------------------------------------------------------------------
