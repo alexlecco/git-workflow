@@ -42,3 +42,9 @@ git checkout master
 git rebase upstream/master
 
 # -------------------------------------------------------------------
+# GIT Invalid User Name
+``` bash
+$ git config --global --unset credential.helper manager
+//and reset the Username and password
+```
+# -------------------------------------------------------------------
