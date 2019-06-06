@@ -52,6 +52,7 @@ Revert git pull branch-2 in branch-1 unintentionally. (branch-1|MERGING)
 
 $ git reset HEAD
 $ git clean  -d  -f .
+$ git checkout .
 
 # -------------------------------------------------------------------
 
