@@ -55,6 +55,35 @@ $ git clean  -d  -f .
 $ git checkout .
 
 # -------------------------------------------------------------------
+Log commits in a abbreviated way
+
+$ git log --pretty=oneline --abbrev-commit
+
+# -------------------------------------------------------------------
+Git aliases
+
+$ git config --global alias.last 'log -1 HEAD'
+$ git last
+
+$ git config --global alias.unstage 'reset HEAD --'
+$ git unstage fileA
+
+$ git config --global alias.log-ab 'log --pretty=oneline --abbrev-commit'
+$ git log-ab
+
+SHOW ALL ALIASES:
+$ git config --global alias.alias "! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /"
+$ git alias
+
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
 
 # -------------------------------------------------------------------
 
